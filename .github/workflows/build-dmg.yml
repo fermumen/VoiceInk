@@ -2,10 +2,7 @@ name: Build DMG
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+    branches: remove-license
 jobs:
   build:
     runs-on: macos-latest
